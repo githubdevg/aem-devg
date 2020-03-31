@@ -98,6 +98,11 @@
                             <artifactId>aem-devg.core</artifactId>
                             <target>/apps/devg/install</target>
                         </embedded>
+                        <embedded>
+                            <groupId>com.devg</groupId>
+                            <artifactId>aem-devg.core-api</artifactId>
+                            <target>/apps/devg/install</target>
+                        </embedded>
                     </embeddeds>
                 </configuration>
             </plugin>
@@ -111,6 +116,12 @@
         <dependency>
             <groupId>com.devg</groupId>
             <artifactId>aem-devg.core</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.devg</groupId>
+            <artifactId>aem-devg.core-api</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
 
